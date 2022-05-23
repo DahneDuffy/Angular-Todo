@@ -1,27 +1,20 @@
-# AngularCrash
+# Angular Todo List
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
+This app is a simple todo list, that allows the user to input a task, date, and reminder boolean to create a list of todo tasks.
 
-## Development server
+![Angular-Todo](https://github.com/DahneDuffy/Angular-Todo/blob/main/angular_todo.gif)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## How It's Made:
+Tech used: Angular, Typescript, HTML, CSS, JSON Server
 
-## Code scaffolding
+For each element you see in the gif above (e.g. the buttons, tasks, task list, header, footer, etc.) I built an angular component.  I then set up some services to communicate amongst the components, and for the components to communicate to my JSON server (to update the todo list information and properties).  When I know my way around Angular more, I plan on doing a full technical write up.  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Optimizations:
+For sake of ease while building I used JSON Server as a faux backend.  I'd like to eventually deploy this, so I'll likely build out a legitimate backend in the next iteration.  I'm not also sure it was completely necessary to use as many components as I did, so maybe in the next iteration with React, I'll see if I can slim some of that down.  
 
-## Build
+## Lessons Learned:
+This was my first foray into Angular, and it is definitely the most robust framework I've worked with to date.  For that reason, however, it felt like a bit much for something as simple as a todo list app.  I've heard from many people that React is more accessible, and more in demand.  So my plan is to recreate this app using the React framework as an exploratory project.  I'm excited to see how it compares with Angular!
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Credit to Traversy Media for the help!
